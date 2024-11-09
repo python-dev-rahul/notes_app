@@ -60,10 +60,11 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True  # For development purposes, to allow all origins
+CORS_ALLOW_SECURE_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-      'https://notes-app-frontend-lovat.vercel.app/'  # Replace with your frontend URL in production
+    'https://notes-app-frontend-lovat.vercel.app/'  # Replace with your frontend URL in production
 ]
 
 
